@@ -1,9 +1,7 @@
 param(
-    [ValidatePattern("@furness\.ac\.uk$")]
     [parameter(Mandatory)]
     [string]$TargetUPN,
 
-    [ValidatePattern("@furness\.ac\.uk$")]
     [parameter(Mandatory)]
     [string]$SharepointAdministratorUPN,
 
